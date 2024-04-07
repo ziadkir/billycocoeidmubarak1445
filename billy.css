@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(193, 118, 213);
+}
+
+header {
+    margin-top: 1em;
+    font-size: larger;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+}
+
+div div {
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    height: 10em;
+}
+
+.pics
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 40%;
+    height: 375em;
+}
+
+div img {
+    width: 85%;
+    text-align: center;
+    height: 15em;
+    margin-top: 3%;
+    border-style: solid;
+}
+
+.picone {
+    height: 10em;
+    text-align: center;
+}
+
+.pictwo {
+    height: 25em;
+    text-align: center;
+}
+
+.picpic {
+    height: 25em;
+}
+
+.picpicpic {
+    height: 20em;
+}
+
+#firstvid {
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    height: 30em;
+}
+
+#secvid {
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    height: 30em;
+}
+
+#thrdvid {
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    height: 30em;
+}
+
+.thvid {
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    height: 30em;
+}
+.vid {
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    height: 30em;
+}
+
+video {
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    width: fit-content;
+    height: 100%;
+}
+
+@media (min-width: 576px){
+    body{background-color: chocolate;}
+
+    div{display: flex;
+    display: inline;}
+
+    div img{
+        height: 30em;
+        width: fit-content;
+    }
+
+    video {
+        border-style: solid;
+        border-color: black;
+        background-color: black;
+        width: fit-content;
+        height: 25em;
+    }
+}
